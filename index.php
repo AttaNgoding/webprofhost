@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost", "root", "", "perpus");
+include 'db.php';
 // Hapus Data
 if (isset($_GET['hapus'])) {
     $id = $_GET['hapus'];
